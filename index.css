@@ -57,14 +57,11 @@ padding-top: 10px;
 }
 .html h2{  
    color: tomato;
+  
     
 }
 
-hr{
-    background-color: rgb(204, 203, 203) !important;
-   font-weight: bolder;
-   font-size: 89px;
-}
+
 
 .css h2{
     color: rgb(26, 149, 250);
@@ -79,7 +76,7 @@ hr{
 .container{
 align-items: flex-start;
 padding-left: 5px;
-flex-basis: 30%;
+flex-basis: 27%;
 display: flex;
 
 }
@@ -90,6 +87,7 @@ background-color: rgb(252, 248, 248);
 outline: thick;
 border-radius: 3px;
  box-shadow: 3px 3px #00000042;
+ padding: 20px;
 }
 .programing-languages .container{
     margin-right: 20px;
@@ -101,19 +99,20 @@ border-radius: 3px;
   display: flex;
  flex-direction:column;
  align-items: center; 
-  justify-content: start;
+  justify-content: space-between;
   
 }
 
 .programing-languages .mainContainer{
     flex: 2;
     display: flex;
+    flex-direction: column;
    
 }
 
 .programing-languages .mainContainer img{
     flex-basis: initial;
-    height: 256px;
+    height: 156px;
   
 }
 
@@ -122,6 +121,35 @@ border-radius: 3px;
 
 }
 
+.programing-languages .mainContainer .otherDetails{
+    display: flex;
+   justify-content: space-around !important;
+    margin-top: 30px;
+    
+   
+}
+
+.programing-languages .mainContainer .otherDetails .card{
+    flex-basis: 25% !important;
+   
+    
+    background-color: rgba(121, 19, 255, 0.74);
+    box-sizing: border-box;
+    display: flex;
+   
+}
+
+.mainContainer .otherDetails .card img{
+    display: flex;
+  height: auto;
+   width:80%;
+   margin: auto;
+  
+
+}
+.mainContainer .otherDetails :nth-child(2){
+    background-color: rgb(83, 83, 83) !important;
+}
 
 .container-2 .details{
     margin-bottom: 10px;
@@ -132,3 +160,4 @@ border-radius: 3px;
 .container-2 .details img{
     margin: auto;
 }
+

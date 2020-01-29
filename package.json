@@ -1,0 +1,22 @@
+{
+  "name": "project-1",
+  "version": "1.0.0",
+  "description": "Flexbox layout.",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpitmishra61/Flex-Box-Layout-1.git"
+  },
+  "author": "Arpit Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arpitmishra61/Flex-Box-Layout-1/issues"
+  },
+  "homepage": "https://github.io/arpitmishra61/Flex-Box-Layout-1",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
